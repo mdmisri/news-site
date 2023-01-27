@@ -1,0 +1,21 @@
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+.heading{
+    color: rgb(231, 105, 1);
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+#h1a {
+    color: rgb(0, 136, 255);
+}
+#h1b {
+    color: rgb(8, 252, 0);
+}
+#h1c {
+    color: rgb(0, 183, 255);
+}
+#h1d {
+    color: rgb(15, 77, 3);
