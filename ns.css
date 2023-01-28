@@ -1,9 +1,30 @@
 
-header {
-    background-color: rgb(0, 0, 0);
+.header {
+    overflow: hidden;
+    background-color: rgb(4, 255, 138);
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor: default;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    background-color: #f7f8ff;
 }
 .heading{
-    color: rgb(231, 105, 1);
+    color: rgb(0, 0, 0);
+
 }
 body {
     background-color: rgb(255, 255, 255);
@@ -11,11 +32,32 @@ body {
 #h1a {
     color: rgb(0, 136, 255);
 }
-#h1b {
+.h1b {
     color: rgb(8, 252, 0);
 }
 #h1c {
     color: rgb(0, 183, 255);
 }
 #h1d {
-    color: rgb(15, 77, 3);
+    color: rgb(255, 0, 0);
+}
+.topnav {
+    background-color:  rgb(0, 0, 0);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+        background-color: #001aff;
+        color: black;
+}
+.topnav a.active {
+    background-color: #001aff;
+    color: rgb(255, 255, 255);
+}
