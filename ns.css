@@ -30,10 +30,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.nmaintop {
+.maintop {
     background-color:yellow;
 }
-
 .toppicks {
     color: rgb(0, 136, 255);
     display:grid;
