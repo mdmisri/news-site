@@ -1,1 +1,1 @@
-# news-site
+newssite.github.io
