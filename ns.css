@@ -72,10 +72,7 @@
     margin-right: 17px;
     font-size: 17px;
 }
-.content {
-    display: grid;
-grid-template-columns: repeat(autofill,minmax(200px,1fr))
-}
+
 .startups {
     background-color: #b3ff00;
     padding: 5px;
